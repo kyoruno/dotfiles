@@ -12,10 +12,10 @@
         "hyprland/submap"
     ],
     "modules-right": [
-        "idle_inhibitor",
         "keyboard-state",
         "tray",
-        "pulseaudio",
+        "wireplumber",
+        "idle_inhibitor",
         "clock"
     ],
     "hyprland/window": {
@@ -79,23 +79,10 @@
             "on-scroll-down": "tz_down"
         }
     },
-    "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-muted": " {format_source}",
-        //"format-bluetooth": "{volume}% {icon} {format_source}",
-        //"format-bluetooth-muted": " {icon} {format_source}",
-        "format-source": "",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "on-click": "pavucontrol",
+        "format-icons": ["", "", ""]
     }
 }

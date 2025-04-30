@@ -77,19 +77,11 @@ button:hover {
 }
 
 #clock,
-#cpu,
-#memory,
-#disk,
-#backlight,
-#pulseaudio,
 #wireplumber,
-#custom-media,
 #tray,
 #mode,
-#idle_inhibitor,
-#power-profiles-daemon,
-#mpd {
-    padding: 0 10px;
+#idle_inhibitor {
+    padding: 0 5px;
     color: #ffffff;
 }
 
@@ -120,75 +112,16 @@ button:hover {
     }
 }
 
-#power-profiles-daemon {
-    padding-right: 15px;
-}
-
-#power-profiles-daemon.performance {
-    background-color: #f53c3c;
-    color: #ffffff;
-}
-
-#power-profiles-daemon.balanced {
-    background-color: #2980b9;
-    color: #ffffff;
-}
-
-#power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
-}
-
 label:focus {
     background-color: #000000;
 }
 
-#cpu {
-    background-color: #2ecc71;
-    color: #000000;
-}
-
-#memory {
-    background-color: #9b59b6;
-}
-
-#disk {
-    background-color: #964B00;
-}
-
-#backlight {
-    background-color: #90b1b1;
-}
-
-#pulseaudio {
+#wireplumber {
     color: #e7e7e7;
 }
 
-#pulseaudio.muted {
-    color: rgba(255, 114, 114, 0.604);
-}
-
-#wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
-}
-
 #wireplumber.muted {
-    background-color: #f53c3c;
-}
-
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #66cc99;
-}
-
-#custom-media.custom-vlc {
-    background-color: #ffa000;
+    color: rgba(255, 114, 114, 0.604);
 }
 
 /*
@@ -214,23 +147,6 @@ label:focus {
     color: rgba(255, 255, 255, 0.797);
 }
 
-#mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
-}
-
 #language {
     background: #00b093;
     color: #740864;
@@ -250,25 +166,4 @@ label:focus {
     padding: 0 5px;
     font-size: 16px;
     font-weight: 900;
-}
-
-#privacy {
-    padding: 0;
-}
-
-#privacy-item {
-    padding: 0 5px;
-    color: white;
-}
-
-#privacy-item.screenshare {
-    background-color: #cf5700;
-}
-
-#privacy-item.audio-in {
-    background-color: #1ca000;
-}
-
-#privacy-item.audio-out {
-    background-color: #0069d4;
 }
