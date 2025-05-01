@@ -6,11 +6,13 @@ setopt extendedglob
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/kyo/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-PS1='%n@%m %~$ '
+autoload -U colors && colors
+PS1="%{$fg[white]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[magenta]%}%~ %{$reset_color%}%% "
+
 eval "$(zoxide init --cmd cd zsh)"
