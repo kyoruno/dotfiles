@@ -4,35 +4,22 @@
     font-weight: 600;
 }
 
+#window {
+    margin: 0 10px;
+    padding: 5px;
+}
+
 window#waybar {
     background-color: rgba(23, 23, 23, 0.892);
     border-bottom: 3px solid rgba(74, 74, 74, 0.39);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 16px;
+    border-radius: 30px;
 }
 
 window#waybar.hidden {
     opacity: 0.2;
-}
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
 }
 
 button {
@@ -85,11 +72,6 @@ button:hover {
     color: #ffffff;
 }
 
-#window,
-#workspaces {
-    margin: 0 4px;
-}
-
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -112,8 +94,14 @@ button:hover {
     }
 }
 
-label:focus {
-    background-color: #000000;
+tooltip {
+    background: #1F2228;
+    border: 1px solid rgba(100, 114, 125, 0.5);
+    border-radius: 30px;
+}
+
+tooltip label {
+    color: white;
 }
 
 #wireplumber {
@@ -124,35 +112,12 @@ label:focus {
     color: rgba(255, 114, 114, 0.604);
 }
 
-/*
-#tray {
-    background-color: #2980b9;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
-}
-*/
-
 #idle_inhibitor {
     color: rgba(146, 146, 146, 0.487);
 }
 
 #idle_inhibitor.activated {
     color: rgba(255, 255, 255, 0.797);
-}
-
-#language {
-    background: #00b093;
-    color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
 }
 
 #keyboard-state > label {
