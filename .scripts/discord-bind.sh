@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Workaround for OpenAsar logs being generated at home dir
+# https://github.com/GooseMod/OpenAsar/issues/202
+export DISCORD_USER_DATA_DIR=$HOME/.config/discord
+
 if ! pidof Discord > /dev/null; then 
     discord & sleep 1 # Launch if its not running
 else
