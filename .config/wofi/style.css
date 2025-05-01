@@ -1,0 +1,48 @@
+* {
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(186, 186, 186);
+}
+
+#root {
+    max-width: 100%;
+    width: 30px;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#input {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    background-color: #181818;
+    border-radius: 30px;
+}
+
+#outer-box {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #171717;
+}
+
+#entry {
+    margin: 5px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px;
+}
+
+#entry:selected {
+    background-color: rgb(40, 40, 40);
+}
+
+#text {
+    margin: 2px;
+    padding: 5px
+}
+
+#text:selected {
+    color: rgb(139, 151, 255);
+    text-shadow: 1px 1px 15px;
+}
