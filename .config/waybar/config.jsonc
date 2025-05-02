@@ -15,6 +15,7 @@
         "keyboard-state",
         "tray",
         "wireplumber",
+        "privacy",
         "idle_inhibitor",
         "clock"
     ],
@@ -84,5 +85,22 @@
         "format-muted": "",
         "on-click": "pavucontrol",
         "format-icons": ["", "", ""]
+    },
+    "privacy": {
+        "icon-spacing": 4,
+        "icon-size": 16,
+        "transition-duration": 250,
+        "modules": [
+            {
+                "type": "screenshare",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            },
+            {
+                "type": "audio-in",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            }
+        ]
     }
 }
