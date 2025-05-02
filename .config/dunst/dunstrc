@@ -13,7 +13,7 @@
     icon_corner_radius = 10
     icon_corners = all
     indicate_hidden = yes
-    padding = 16
+    padding = 12
     horizontal_padding = 16
     frame_width = 2
     frame_color = "#6a9dffaa"
