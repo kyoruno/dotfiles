@@ -5,17 +5,17 @@
 }
 
 #window {
-    margin: 0 10px;
-    padding: 5px;
+    margin: 0 20px;
 }
 
 window#waybar {
     background-color: rgba(23, 23, 23, 0.5);
-    border-bottom: 3px solid rgba(74, 74, 74, 0.4);
+    border-bottom: 1px inset rgb(37, 37, 0.5);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
 }
 
 window#waybar.hidden {
@@ -83,8 +83,9 @@ button:hover {
 }
 
 #clock {
-    background-color: #45499d;
-    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-left: 2px solid rgba(0, 0, 0, 0.05);
+    border-bottom-right-radius: 60px;
 }
 
 @keyframes blink {
@@ -95,7 +96,7 @@ button:hover {
 }
 
 tooltip {
-    background: #1b1b1b;
+    background: rgba(22, 22, 22, 0.97);
     border: 1px solid rgba(80, 80, 80, 0.5);
     border-radius: 30px;
     opacity: 0.97;
