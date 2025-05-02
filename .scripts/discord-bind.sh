@@ -4,6 +4,11 @@
 # https://github.com/GooseMod/OpenAsar/issues/202
 export DISCORD_USER_DATA_DIR=$HOME/.config/discord
 
+# Force XWayland because of flickering :(
+export ELECTRON_OZONE_PLATFORM_HINT=x11
+
+###################################################################################
+
 if ! pidof Discord > /dev/null; then 
     discord & sleep 1 # Launch if its not running
 else
