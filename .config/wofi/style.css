@@ -25,6 +25,9 @@ window {
     padding: 20px;
     border-radius: 20px;
     background-color: #171717;
+    border-style: solid;
+    border-color: rgb(68, 68, 68);
+    border-width: 2px;
 }
 
 #expander-box {
