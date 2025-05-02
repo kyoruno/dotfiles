@@ -10,8 +10,8 @@
 }
 
 window#waybar {
-    background-color: rgba(23, 23, 23, 0.892);
-    border-bottom: 3px solid rgba(74, 74, 74, 0.39);
+    background-color: rgba(23, 23, 23, 0.5);
+    border-bottom: 3px solid rgba(74, 74, 74, 0.4);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -95,9 +95,10 @@ button:hover {
 }
 
 tooltip {
-    background: #1F2228;
-    border: 1px solid rgba(100, 114, 125, 0.5);
+    background: #1b1b1b;
+    border: 1px solid rgba(80, 80, 80, 0.5);
     border-radius: 30px;
+    opacity: 0.97;
 }
 
 tooltip label {
