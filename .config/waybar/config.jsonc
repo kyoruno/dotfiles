@@ -4,6 +4,7 @@
     "height": 40,
     "width": 1664,
     "spacing": 2,
+    "margin": 4,
     "modules-left": [
         "hyprland/window"
     ],
