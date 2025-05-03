@@ -90,4 +90,5 @@ button:hover {
 
 #clock {
     color: rgb(106, 158, 255);
+    padding-left: 3px;
 }
