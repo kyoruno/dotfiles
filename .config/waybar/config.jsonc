@@ -1,8 +1,8 @@
 // -*- mode: jsonc -*-
 {
     "output": "DP-1",
-    "height": 30,
-    //"width": 1280,
+    "height": 40,
+    "width": 1664,
     "spacing": 2,
     "modules-left": [
         "hyprland/window"
@@ -27,16 +27,6 @@
         "all-outputs": true,
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1"
-    },
-    "keyboard-state": {
-        "numlock": false,
-        "capslock": true,
-        /*"format": "{name} {icon}",*/
-        "format": "CPS",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
     },
     "hyprland/submap": {
         "format": "<span style=\"italic\">{}</span>"
