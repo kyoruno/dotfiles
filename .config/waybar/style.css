@@ -7,15 +7,14 @@
 window#waybar,
 tooltip {
     color: white;
-    background-color: #171717;
+    background-color: #1B1D20;
     border-radius: 40px;
-    opacity: 0.97;
 }
 
 #workspaces,
 #clock {
-    background-color: #202020;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #242629;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin: 4px;
 }
@@ -34,10 +33,6 @@ tooltip {
 window#waybar {
     transition-property: background-color;
     transition-duration: 1s;
-}
-
-window#waybar.hidden {
-    opacity: 0.2;
 }
 
 #workspaces button {
@@ -89,6 +84,6 @@ button:hover {
 }
 
 #clock {
-    color: rgb(106, 158, 255);
+    color: #6a9eff;
     padding-left: 3px;
 }
