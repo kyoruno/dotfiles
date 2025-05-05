@@ -87,3 +87,7 @@ button:hover {
     color: #6a9eff;
     padding-left: 3px;
 }
+
+tooltip {
+    border-radius: 10px;
+}

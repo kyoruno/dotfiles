@@ -14,7 +14,7 @@ parser.set_defaults(toggle=None)
 
 args = parser.parse_args()
 
-def clients_visibility(state: bool):
+def hide_clients(state: bool):
     """Set window transparency states based on toggle"""
     clients = subprocess.check_output(["hyprctl", "clients", "-j"])
     clients = json.loads(clients)
@@ -33,10 +33,10 @@ def main():
     """Main function"""
     if args.toggle:
         if LOCKFILE.exists():
-            clients_visibility(False)
+            hide_clients(False)
             LOCKFILE.unlink()
         else:
-            clients_visibility(True)
+            hide_clients(True)
             LOCKFILE.touch()
     else:
         parser.print_help()
