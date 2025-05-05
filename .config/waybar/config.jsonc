@@ -74,7 +74,7 @@
     "wireplumber": {
         "format": "{volume}% {icon}",
         "format-muted": "",
-        "on-click": "pavucontrol",
+        "on-click": "~/.scripts/autoclose-pavu.sh",
         "format-icons": ["", "", ""]
     },
     "privacy": {
