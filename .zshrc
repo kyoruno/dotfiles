@@ -1,18 +1,21 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt extendedglob
 bindkey -v
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '~/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
-# End of lines added by compinstall
+promptinit
 
-autoload -U colors && colors
-PS1="%{$fg[white]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[magenta]%}%~ %{$reset_color%}%% "
+prompt walters
+
+typeset -U path PATH
+path=(~/.local/bin $path)
+export PATH
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias ssh='TERM=xterm-256color ssh'
 
 eval "$(zoxide init --cmd cd zsh)"
+zstyle ':completion:*' rehash true
