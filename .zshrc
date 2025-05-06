@@ -7,7 +7,7 @@ autoload -Uz compinit promptinit
 compinit
 promptinit
 
-prompt walters
+prompt suse
 
 typeset -U path PATH
 path=(~/.local/bin $path)
