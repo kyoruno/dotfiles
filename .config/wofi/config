@@ -4,3 +4,4 @@ hide_scroll=true
 show=drun
 allow_images=true
 gtk_dark=true
+insensitive=true
