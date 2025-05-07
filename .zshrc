@@ -13,6 +13,8 @@ typeset -U path PATH
 path=(~/.local/bin $path)
 export PATH
 
+export EDITOR=vim
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ssh='TERM=xterm-256color ssh'

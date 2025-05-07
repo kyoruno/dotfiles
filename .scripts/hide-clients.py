@@ -33,10 +33,10 @@ def main():
     """Main function"""
     if args.toggle:
         if LOCKFILE.exists():
-            hide_clients(False)
+            hide_clients(True)
             LOCKFILE.unlink()
         else:
-            hide_clients(True)
+            hide_clients(False)
             LOCKFILE.touch()
     else:
         parser.print_help()
