@@ -10,8 +10,7 @@
         "hyprland/window"
     ],
     "modules-center": [
-        "hyprland/workspaces",
-        "hyprland/submap"
+        "hyprland/workspaces"
     ],
     "modules-right": [
         "tray",
@@ -28,9 +27,6 @@
         "all-outputs": true,
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1"
-    },
-    "hyprland/submap": {
-        "format": "<span style=\"italic\">{}</span>"
     },
     "idle_inhibitor": {
         "format": "{icon}",
