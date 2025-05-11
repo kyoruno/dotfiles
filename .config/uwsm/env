@@ -4,7 +4,7 @@ export ELECTRON_OZONE_PLATFORM_HINT=wayland
 export PATH="$PATH:$HOME/.local/bin"
 
 # Qt
-export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORM="wayland;xcb"
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=qt5ct
 
