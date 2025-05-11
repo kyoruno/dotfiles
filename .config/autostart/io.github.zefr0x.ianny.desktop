@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Ianny
+Exec=ianny
+NoDisplay=true
+Terminal=false
+SingleMainWindow=true
+Keywords=RSI;eye;break;
+X-GNOME-Autostart-enabled=true
