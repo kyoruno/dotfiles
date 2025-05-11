@@ -15,9 +15,10 @@ export PATH
 
 export EDITOR=vim
 
-alias ls='ls --color=auto'
+alias ls='eza'
 alias grep='grep --color=auto'
 alias ssh='TERM=xterm-256color ssh'
 
 eval "$(zoxide init --cmd cd zsh)"
 zstyle ':completion:*' rehash true
+
