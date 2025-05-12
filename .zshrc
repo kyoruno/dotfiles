@@ -21,4 +21,3 @@ alias ssh='TERM=xterm-256color ssh'
 
 eval "$(zoxide init --cmd cd zsh)"
 zstyle ':completion:*' rehash true
-
