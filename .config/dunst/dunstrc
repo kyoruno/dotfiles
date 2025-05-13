@@ -9,7 +9,7 @@
     scale = 0
 
     notification_limit = 20
-    progress_bar = false
+    progress_bar = true
     icon_corner_radius = 10
     icon_corners = all
     indicate_hidden = yes
@@ -110,3 +110,8 @@
     timeout = 0
     override_pause_level = 60
     default_icon = dialog-warning
+
+[Spotify]
+    appname = Spotify
+    timeout = 3
+    history_ignore = true
