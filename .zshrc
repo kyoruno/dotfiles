@@ -14,6 +14,7 @@ path=(~/.local/bin $path)
 export PATH
 
 export EDITOR=vim
+export GPG_TTY=$(tty)
 
 alias ls='eza'
 alias grep='grep --color=auto'
