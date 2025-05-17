@@ -1,7 +1,7 @@
 * {
-    font-weight: 600;
+    font-weight: 900;
 }
 
 window {
-    background-color: rgba(17, 17, 17, 0.9);
+    background-image: radial-gradient(circle at center, rgb(89, 82, 164) 50%, black 100%);
 }
