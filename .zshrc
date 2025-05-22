@@ -20,5 +20,9 @@ alias ls='eza'
 alias grep='grep --color=auto'
 alias ssh='TERM=xterm-256color ssh'
 
+# https://github.com/jarun/advcpmv
+alias cp='advcp -g'
+alias mv='advmv -g'
+
 eval "$(zoxide init --cmd cd zsh)"
 zstyle ':completion:*' rehash true
