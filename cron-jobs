@@ -1,1 +1,1 @@
-*/15 * * * * $HOME/.scripts/notify-hydrate.sh
+*/30 * * * * $HOME/.scripts/notify-hydrate.sh

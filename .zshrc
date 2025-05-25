@@ -24,5 +24,9 @@ alias ssh='TERM=xterm-256color ssh'
 alias cp='advcp -g'
 alias mv='advmv -g'
 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
 eval "$(zoxide init --cmd cd zsh)"
 zstyle ':completion:*' rehash true
